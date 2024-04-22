@@ -1,0 +1,239 @@
+body {
+  background-color: #7799ff;
+  color: white;
+  overflow: hidden;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.university-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 150px; /* Adjust based on your needs */
+  height: auto;
+  z-index: 10; /* Ensure it's above other content if necessary */
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.help-button {
+  background-color: #0d0d00;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.help-button:hover {
+  background-color: #2c354c;
+}
+
+.help-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assignment-wrapper {
+  background-color: #8f94bea4;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 5px black;
+}
+
+.assignment-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+}
+
+.assignment-input-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+
+.assignment-input-item label {
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.assignment-input-item input {
+  padding: 8px;
+  border: none;
+  width: 250px
+}
+
+.assignment-input-item input:focus {
+  outline: none;
+}
+
+.primary-button {
+  background-color: #7799ff;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #2c354c;
+}
+
+.secondary-button {
+  background-color: rgb(76, 76, 76);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  background-color: #2c354c;
+}
+
+.active {
+  background-color: #7799ff; 
+}
+
+.button-area {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.assignment-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.assignment-list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #414040;
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px black;
+}
+
+.assignment-list-item h3{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0;
+}
+
+.assignment-list-item p{
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(179, 178, 178);;
+
+}
+
+.icon{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  color: red;
+}
+
+
+.icon2{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.icon2:hover{
+  color:orange;
+
+}
+
+.check-icon{
+  font-size: 30px;
+  cursor: pointer;
+  color:  white;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.check-icon:hover{
+  color: rgb(4, 192, 104);
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: white;
+  margin-bottom: 1%;
+}
+
+.university-logo {
+  width: 100px; 
+}
+
+h1 {
+  position: absolute;
+  font-size: 24px;
+  margin: 0; 
+  left: 42%;
+  color: black;
+}
